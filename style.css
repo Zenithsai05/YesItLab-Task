@@ -1,0 +1,82 @@
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                        url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80') center/cover;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            transition: transform 0.3s ease;
+        }
+        .top-bar {
+            background-color: #f97316;
+            color: white;
+            padding: 8px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+        }
+        .top-bar .social-links a {
+            color: white;
+            margin-left: 10px;
+            font-size: 16px;
+        }
+        .top-bar .social-links a:hover {
+            color: #e5e7eb;
+        }
+        .top-bar .address {
+            display: flex;
+            align-items: center;
+        }
+        .top-bar .address span {
+            margin-left: 5px;
+        }
+        nav {
+            top: 0;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+        }
+        .hero-section h1 {
+            font-size: 4rem;
+            line-height: 1.2;
+        }
+        .hero-section p {
+            font-size: 1.5rem;
+        }
+        .stats-section .grid div {
+            transition: transform 0.3s ease;
+        }
+        .stats-section .grid div:hover {
+            transform: translateY(-10px);
+        }
+        .service-card {
+            transition: transform 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        .team-card {
+            transition: transform 0.3s ease;
+        }
+        .team-card:hover {
+            transform: translateY(-10px);
+        }
+        .press-card {
+            transition: transform 0.3s ease;
+        }
+        .press-card:hover {
+            transform: translateY(-10px);
+        }
+        footer a:hover {
+            color: #f97316 !important;
+        }
